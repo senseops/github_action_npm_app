@@ -16,7 +16,7 @@ jobs:
       security-events: write
     strategy:
       matrix:
-        language: ['javascript', 'python']
+        language: ['javascript']
     steps:
     - name: "Checkout code"
       uses: actions/checkout@v3
